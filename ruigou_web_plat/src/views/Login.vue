@@ -17,7 +17,7 @@
 
 <script>
   // import { requestLogin } from '../api/api';
-  import axios  from "axios"
+  // import axios  from "axios"
   export default {
     data() {
       return {
@@ -52,7 +52,7 @@
             //NProgress.start();
             var loginParams = { name: this.ruleForm2.account, password: this.ruleForm2.checkPass };
             // https://www.easy-mock.com/mock/5c397bd50f501e020225d588/ruigou/services/plat/login
-            axios.post("/plat/login",loginParams)
+            this.$http.post("/plat/login",loginParams)
               .then(data=>{
                 this.logining = false;
                 console.log(data)
@@ -65,7 +65,7 @@
                 } else {
                   retsultObj= {"name":"zs","age":18}
                   sessionStorage.setItem('user', JSON.stringify(retsultObj));
-                  this.$router.push({ path: '/table' });
+                  this.$router.push({ path: '/main' });
                 }
               });
           } else {

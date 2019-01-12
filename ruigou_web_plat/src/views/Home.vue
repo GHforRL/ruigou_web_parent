@@ -75,7 +75,7 @@
 	export default {
 		data() {
 			return {
-				sysName:'VUEADMIN',
+				sysName:'瑞购网后台',
 				collapsed:false,
 				sysUserName: '',
 				sysUserAvatar: '',

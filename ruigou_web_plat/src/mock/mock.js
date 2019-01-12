@@ -20,7 +20,7 @@ export default {
       msg: 'failure'
     });
 
-    //登录
+    //登录-模拟后端登录接口  /login  function(config.data)
     mock.onPost('/login').reply(config => {
       let {username, password} = JSON.parse(config.data);
       return new Promise((resolve, reject) => {

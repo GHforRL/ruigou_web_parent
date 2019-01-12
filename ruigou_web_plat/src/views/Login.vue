@@ -16,8 +16,8 @@
 </template>
 
 <script>
-  import { requestLogin } from '../api/api';
-  //import NProgress from 'nprogress'
+  // import { requestLogin } from '../api/api';
+  import axios  from "axios"
   export default {
     data() {
       return {
@@ -50,21 +50,24 @@
             //_this.$router.replace('/table');
             this.logining = true;
             //NProgress.start();
-            var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-            requestLogin(loginParams).then(data => {
-              this.logining = false;
-              //NProgress.done();
-              let { msg, code, user } = data;
-              if (code !== 200) {
-                this.$message({
-                  message: msg,
-                  type: 'error'
-                });
-              } else {
-                sessionStorage.setItem('user', JSON.stringify(user));
-                this.$router.push({ path: '/table' });
-              }
-            });
+            var loginParams = { name: this.ruleForm2.account, password: this.ruleForm2.checkPass };
+            // https://www.easy-mock.com/mock/5c397bd50f501e020225d588/ruigou/services/plat/login
+            axios.post("/plat/login",loginParams)
+              .then(data=>{
+                this.logining = false;
+                console.log(data)
+                let { success, message,retsultObj } = data.data;
+                if (!success) {
+                  this.$message({
+                    message: message,
+                    type: 'error'
+                  });
+                } else {
+                  retsultObj= {"name":"zs","age":18}
+                  sessionStorage.setItem('user', JSON.stringify(retsultObj));
+                  this.$router.push({ path: '/table' });
+                }
+              });
           } else {
             console.log('error submit!!');
             return false;

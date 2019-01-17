@@ -1,7 +1,6 @@
 import Login from './views/Login.vue'
 import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
-import Main from './views/Main.vue'
 import Table from './views/nav1/Table.vue'
 import Form from './views/nav1/Form.vue'
 import user from './views/nav1/user.vue'
@@ -9,6 +8,8 @@ import Page4 from './views/nav2/Page4.vue'
 import Page5 from './views/nav2/Page5.vue'
 import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
+import Brand from './views/commodity/Brand.vue'
+import commodityType from './views/commodity/commodityType.vue'
 
 let routes = [
     {
@@ -41,11 +42,11 @@ let routes = [
         name: '商品模块',
         iconCls: 'fa fa-shopping-bag',//图标样式class
         children: [
-            { path: '/commodityBrand', component: Main, name: '商品品牌'},
-            { path: '/commodityType', component: Table, name: '商品类型' },
-            { path: '/commodityTemplate', component: Form, name: '商品模板' },
-            { path: '/commoditySpecifications', component: user, name: '商品规格' },
-            { path: '/commodity', component: Page4, name: '商品管理' }
+            { path: '/commodityBrand', component: Brand, name: '商品品牌'},
+            { path: '/commodityType', component: commodityType, name: '商品类型' },
+            { path: '/commodityTemplate', component: Table, name: '商品模板' },
+            { path: '/commodityViewProperties', component: user, name: '商品规格' },
+            { path: '/commodity', component: Table, name: '商品管理' }
         ]
     },
     {

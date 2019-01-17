@@ -27,6 +27,7 @@ import axios from 'axios' //和引入vue一样
 axios.defaults.baseURL = "http://127.0.0.1:9527/services"//配置前缀
 // 将API方法绑定到全局  /plat/login
 Vue.prototype.$http = axios //取了别名
+Vue.prototype.$staticIp = "http://120.79.93.42" //给Vue这个类添加一个原型的属性,这个类的对象都能调用
 Vue.config.productionTip = false
 const router = new VueRouter({
   routes

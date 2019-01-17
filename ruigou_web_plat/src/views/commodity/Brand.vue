@@ -233,9 +233,6 @@
 			handleEdit: function (index, row) {
 				this.beforeCreate();
 				this.formVisible = true;
-				// let obj = {}
-				// obj.stopPropagation = () =>{}
-				// this.$refs['cascader'].clearValue(obj)
 				//回显
 				this.form = Object.assign({}, row);
 				//回显缩略图
@@ -243,13 +240,9 @@
 					"url":this.$staticIp+row.logo
 				})
 			},
-			// clearValue(ev){
-			// 	ev.stopAndPersist();
-			// 	this.handlePick([],true)
-			// },
 			//显示新增界面
 			handleAdd: function () {
-				ClearForm("eid");
+				// ClearForm("eid");
 				this.beforeCreate();
 				this.formVisible = true;
 				this.form = {
@@ -281,12 +274,12 @@
 					if (valid) {
 						this.$confirm('确认提交吗？', '提示', {}).then(() => {
 							this.editLoading = true;
-							var arr =this.form.commodityTypeId;
-							if (arr>1){
-								for (let lastTypeId of arr) {
-									this.form.commodityTypeId=lastTypeId;
-								}
-							}
+							// var arr =this.form.commodityTypeId;
+							// if (arr>1){
+							// 	for (let lastTypeId of arr) {
+							// 		this.form.commodityTypeId=lastTypeId;
+							// 	}
+							// }
 							let para = Object.assign({}, this.form);
 							this.$http.post("/commodity/brand/save",para).then((res) => {
 								this.editLoading = false;
@@ -332,38 +325,38 @@
 			this.getBrands();
 		}
 	}
-	function ClearForm(id) {
-		var objId = document.getElementById(id);
-		if (objId == undefined) {
-			return;
-		}
-		for (var i = 0; i < objId.elements.length; i++) {
-			if (objId.elements[i].type == "text") {
-				objId.elements[i].value = "";
-			}
-			else if (objId.elements[i].type == "password") {
-				objId.elements[i].value = "";
-			}
-			else if (objId.elements[i].type == "radio") {
-				objId.elements[i].checked = false;
-			}
-			else if (objId.elements[i].type == "checkbox") {
-				objId.elements[i].checked = false;
-			}
-			else if (objId.elements[i].type == "select-one") {
-				objId.elements[i].options[0].selected = true;
-			}
-			else if (objId.elements[i].type == "select-multiple") {
-				for (var j = 0; j < objId.elements[i].options.length; j++) {
-					objId.elements[i].options[j].selected = false;
-				}
-			}
-			else if (objId.elements[i].type == "textarea") {
-				objId.elements[i].value = "";
-			}
-
-		}
-	}
+	// function ClearForm(id) {
+	// 	var objId = document.getElementById(id);
+	// 	if (objId == undefined) {
+	// 		return;
+	// 	}
+	// 	for (var i = 0; i < objId.elements.length; i++) {
+	// 		if (objId.elements[i].type == "text") {
+	// 			objId.elements[i].value = "";
+	// 		}
+	// 		else if (objId.elements[i].type == "password") {
+	// 			objId.elements[i].value = "";
+	// 		}
+	// 		else if (objId.elements[i].type == "radio") {
+	// 			objId.elements[i].checked = false;
+	// 		}
+	// 		else if (objId.elements[i].type == "checkbox") {
+	// 			objId.elements[i].checked = false;
+	// 		}
+	// 		else if (objId.elements[i].type == "select-one") {
+	// 			objId.elements[i].options[0].selected = true;
+	// 		}
+	// 		else if (objId.elements[i].type == "select-multiple") {
+	// 			for (var j = 0; j < objId.elements[i].options.length; j++) {
+	// 				objId.elements[i].options[j].selected = false;
+	// 			}
+	// 		}
+	// 		else if (objId.elements[i].type == "textarea") {
+	// 			objId.elements[i].value = "";
+	// 		}
+	//
+	// 	}
+	// }
 </script>
 
 

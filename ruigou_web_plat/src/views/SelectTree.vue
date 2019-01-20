@@ -55,9 +55,9 @@
                 type: Object,
                 required: false,
                 default: () => ({
-                    parent: 'parentId',
-                    value: 'rowGuid',
-                    label: 'areaName',
+                    parent: 'pid',
+                    value: 'id',
+                    label: 'name',
                     children: 'children',
                 }),
             },

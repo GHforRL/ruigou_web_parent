@@ -46,8 +46,8 @@
 		</el-col>
 
 		<!--编辑界面-->
-		<el-dialog title="编辑" v-model="formVisible" :close-on-click-modal="false">
-			<el-form :model="form" label-width="80px" :rules="formRules" ref="form" id="eid">
+		<el-dialog title="编辑" v-model="formVisible" :close-on-click-modal="false" @close="editDialog=false,resetForm('editForm')" >
+			<el-form :model="form" label-width="80px" :rules="formRules" ref="form" name="editForm">
 				<el-form-item label="名称" prop="name">
 					<el-input v-model="form.name" auto-complete="off"></el-input>
 				</el-form-item>
@@ -106,12 +106,6 @@
 				//     children: "children"
 				// },
 				options: [],
-				defaultProps: {
-					parent: 'pid',   // 父级唯一标识
-					value: 'id',          // 唯一标识
-					label: 'name',       // 标签显示
-					children: 'children' // 子级
-				},
 				filters: {
                     keyword: ''
 				},
@@ -138,13 +132,6 @@
 					// 默认选中值
 					commodityTypeId: '',
 					options: [],
-					// 数据默认字段
-					defaultProps: {
-						parent: 'pid',   // 父级唯一标识
-						value: 'id',          // 唯一标识
-						label: 'name',       // 标签显示
-						children: 'children' // 子级
-					}
 					// options: [],
 					// props: {
 					//     value: "id",
@@ -155,6 +142,9 @@
 			}
 		},
 		methods: {
+			resetForm(formName) {
+				this.$refs[formName].resetFields();
+			},
 			handleSuccess(response, file, fileList){
 				//上传成功回调
 				this.form.logo = file.response.resultObj;
@@ -253,12 +243,6 @@
                     logo: '',
 					commodityTypeId: '',
 					options: [],
-					defaultProps: {
-						parent: 'pid',   // 父级唯一标识
-						value: 'id',          // 唯一标识
-						label: 'name',       // 标签显示
-						children: 'children' // 子级
-					},
 					// options: [],
 					// props: {
 					// 	value: "id",
@@ -306,8 +290,8 @@
 				}).then(() => {
 					this.listLoading = true;
 					//NProgress.start();
-					let para = { ids: ids };
-					batchRemoveUser(para).then((res) => {
+					// let para = { ids: ids };
+					this.$http.delete("/commodity/brand/"+ids).then((res) => {
 						this.listLoading = false;
 						//NProgress.done();
 						this.$message({

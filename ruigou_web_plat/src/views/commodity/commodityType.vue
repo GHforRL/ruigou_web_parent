@@ -1,4 +1,4 @@
-<template id="productType">
+<template id="commodityType">
 
     <el-row style="height: 100%;border: 0px solid rebeccapurple;margin-top: 10px">
         <el-col :span="9" style="padding-top: 10px; min-height:700px;">

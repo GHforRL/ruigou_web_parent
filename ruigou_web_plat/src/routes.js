@@ -10,6 +10,8 @@ import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
 import Brand from './views/commodity/Brand.vue'
 import commodityType from './views/commodity/commodityType.vue'
+import commodityViewProperties from './views/commodity/commodityViewProperties.vue'
+import Commodity from "./views/commodity/Commodity.vue";
 
 let routes = [
     {
@@ -44,9 +46,8 @@ let routes = [
         children: [
             { path: '/commodityBrand', component: Brand, name: '商品品牌'},
             { path: '/commodityType', component: commodityType, name: '商品类型' },
-            { path: '/commodityTemplate', component: Table, name: '商品模板' },
-            { path: '/commodityViewProperties', component: user, name: '商品规格' },
-            { path: '/commodity', component: Table, name: '商品管理' }
+            { path: '/commodityViewProperties', component: commodityViewProperties, name: '属性管理' },
+            { path: '/commodity', component: Commodity, name: '商品管理' }
         ]
     },
     {
@@ -55,8 +56,8 @@ let routes = [
         name: '系统管理',
         iconCls: 'fa fa-th-large',
         children: [
-            { path: '/page4', component: Page4, name: '员工管理' },
-            { path: '/page5', component: Page5, name: '部门管理' }
+            { path: '/page4', component: Form, name: '员工管理' },
+            { path: '/user', component: user, name: '部门管理' }
         ]
     },
     {

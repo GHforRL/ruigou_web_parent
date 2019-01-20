@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f971a95-5374-4ef4-9f7b-8b0626626528" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityViewProperties.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/SelectTree.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/SelectTree.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +27,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue">
+        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
+            <state relative-caret-position="329">
+              <caret line="158" column="34" selection-start-line="158" selection-start-column="34" selection-end-line="158" selection-end-column="34" />
               <folding>
+                <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#el-col#1;n#el-row#0;n#div#0;n#el-card#0;n#el-dialog#1;n#section#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#4458#4480#0" expanded="true" />
+                <element signature="e#4564#4599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,18 +71,20 @@
         <option value="$PROJECT_DIR$/ruigou_web_plat/package.json" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/config/index.js" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/package-lock.json" />
-        <option value="$PROJECT_DIR$/ruigou_web_plat/index.html" />
-        <option value="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/product/commodityType.vue" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/product/Brand.vue" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/packages/menu/src/menu.vue" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/packages/theme-default/src/menu.css" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/Home.vue" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/Login.vue" />
-        <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/src/main.js" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/SelectTree.vue" />
         <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue" />
-        <option value="$PROJECT_DIR$/ruigou_web_plat/src/main.js" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/index.html" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityViewProperties.vue" />
+        <option value="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" />
       </list>
     </option>
   </component>
@@ -99,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +126,19 @@
               <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruigou_web_plat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruigou_web_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruigou_web_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -131,25 +160,16 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="nav1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruigou_web_plat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="nav2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547639800505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547974313416" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -158,18 +178,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Github\ruigou_web_parent\ruigou_shopping\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat\src\views\commodity" />
+      <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat\images" />
+      <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat" />
       <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat\src\views\product" />
       <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat\src\views" />
-      <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Github\ruigou_web_parent\ruigou_web_plat" />
+      <recent name="F:\Github\ruigou_web_parent\ruigou_shopping\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,7 +227,11 @@
       <workItem from="1547556848358" duration="2573000" />
       <workItem from="1547598770148" duration="7758000" />
       <workItem from="1547619255234" duration="17378000" />
-      <workItem from="1547686270674" duration="8696000" />
+      <workItem from="1547686270674" duration="11269000" />
+      <workItem from="1547772392749" duration="15064000" />
+      <workItem from="1547822049450" duration="6993000" />
+      <workItem from="1547858946917" duration="6894000" />
+      <workItem from="1547967443429" duration="5157000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置——lr">
       <created>1547273190388</created>
@@ -229,17 +254,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547694295773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="商品品牌_图片提交——lr">
+      <created>1547708489666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547708489666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115349000" />
+    <option name="totallyTimeSpent" value="152030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.13486141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.12793177" />
       <window_info id="JRebel" order="2" sideWeight="0.50082916" side_tool="true" weight="0.12793177" />
       <window_info id="Image Layers" order="3" />
@@ -255,7 +287,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2080089" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21517554" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49946696" weight="0.32842582" />
@@ -280,56 +312,14 @@
     <MESSAGE value="修改配置——lr" />
     <MESSAGE value="导航栏修改——lr" />
     <MESSAGE value="商品品牌crud&amp;商品类型——lr" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品品牌crud&amp;商品类型——lr" />
+    <MESSAGE value="商品品牌_图片提交——lr" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品品牌_图片提交——lr" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/nav2/Page4.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/nav2/Page5.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/mock/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/mock/data/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/build/check-versions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/build/dev-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruigou_web_plat/build/dev-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1794" />
@@ -353,25 +343,6 @@
         <state relative-caret-position="-588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/bg1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/logo4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/user.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/api/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruigou_web_plat/build/webpack.prod.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2543" />
@@ -388,13 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84272">
           <caret line="3664" column="26" selection-start-line="3664" selection-start-column="26" selection-end-line="3664" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -469,18 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#li#0;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#template#0;n#li#0;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,10 +1125,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/nav1/Table.vue">
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brandbf.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="92">
+          <caret line="1215" column="4" selection-start-line="1215" selection-start-column="4" selection-end-line="1215" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/logo4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/theme/theme-green/fonts/element-icons.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/user.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/assets/bg1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/images/ruigou_favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4435">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#li#0;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#template#0;n#li#0;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#aside#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/vue-quill-editor/dist/vue-quill-editor.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/lib/element-ui.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="10576" column="8" selection-start-line="10576" selection-start-column="8" selection-end-line="10576" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/SelectTree.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#220#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1191,10 +1216,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/mock/data/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-end-line="302" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#el-row#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-col#0;n#el-row#0;n#template#0;n#!!top" expanded="true" />
@@ -1211,51 +1262,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brandbf.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="253">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityViewProperties.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1215" column="4" selection-start-line="1215" selection-start-column="4" selection-end-line="1215" selection-end-column="4" />
+        <state relative-caret-position="787">
+          <caret line="302" column="8" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/main.js">
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/lib/rate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="285">
+          <caret line="378" column="8" selection-start-line="378" selection-start-column="8" selection-end-line="378" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/packages/rate/src/main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="158" column="34" selection-start-line="158" selection-start-column="34" selection-end-line="158" selection-end-column="34" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#220#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/SelectTree.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5129">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
-          <folding>
+            <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#el-col#1;n#el-row#0;n#div#0;n#el-card#0;n#el-dialog#1;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4458#4480#0" expanded="true" />
+            <element signature="e#4564#4599#0" expanded="true" />
           </folding>
         </state>
       </provider>

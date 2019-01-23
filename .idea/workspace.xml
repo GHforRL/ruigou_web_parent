@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f971a95-5374-4ef4-9f7b-8b0626626528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/utils/slot_tree.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/utils/tree.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/utils/tree_render.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548221697142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548221707147" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/临时projects/EsTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -310,7 +302,7 @@
       <workItem from="1548117057325" duration="6901000" />
       <workItem from="1548154327200" duration="1062000" />
       <workItem from="1548164693207" duration="4257000" />
-      <workItem from="1548203888180" duration="4300000" />
+      <workItem from="1548203888180" duration="4559000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置——lr">
       <created>1547273190388</created>
@@ -347,14 +339,22 @@
       <option name="project" value="LOCAL" />
       <updated>1547974740433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sku属性配置——lr">
+      <created>1548221735823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548221735823</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211048000" />
+    <option name="totallyTimeSpent" value="211307000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.118336886" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.12793177" />
@@ -400,7 +400,8 @@
     <MESSAGE value="商品品牌crud&amp;商品类型——lr" />
     <MESSAGE value="商品品牌_图片提交——lr" />
     <MESSAGE value="显示属性配置——lr" />
-    <option name="LAST_COMMIT_MESSAGE" value="显示属性配置——lr" />
+    <MESSAGE value="sku属性配置——lr" />
+    <option name="LAST_COMMIT_MESSAGE" value="sku属性配置——lr" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

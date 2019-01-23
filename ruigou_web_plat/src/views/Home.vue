@@ -231,6 +231,9 @@
 
 				}
 			}
+			el-menu el-menu-vertical-demo{
+				width: 0px !important;
+			}
 			.menu-collapsed{
 				flex:0 0 60px;
 				width: 60px;

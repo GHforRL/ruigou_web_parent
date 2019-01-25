@@ -7,10 +7,10 @@
 					<el-input v-model="filters.keyword" placeholder="关键字"></el-input>
 				</el-form-item>
 				<el-form-item>
-					<el-button type="primary" v-on:click="getBrands">查询</el-button>
+					<el-button type="primary" v-on:click="getBrands" class="fa fa-search">查询</el-button>
 				</el-form-item>
 				<el-form-item>
-					<el-button type="primary" @click="handleAdd">新增</el-button>
+					<el-button type="primary" @click="handleAdd" class="fa fa-plus">新增</el-button>
 				</el-form-item>
 			</el-form>
 		</el-col>
@@ -30,10 +30,10 @@
 			</el-table-column>
 			<el-table-column prop="description" label="描述"  min-width="250" sortable>
 			</el-table-column>
-			<el-table-column label="操作" width="150">
+			<el-table-column label="操作" width="180">
 				<template scope="scope">
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
-					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
+					<el-button size="small" class="el-icon-edit" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
+					<el-button type="danger" size="small" class="el-icon-delete" @click="handleDel(scope.$index, scope.row)">删除</el-button>
 				</template>
 			</el-table-column>
 		</el-table>

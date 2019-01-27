@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f971a95-5374-4ef4-9f7b-8b0626626528" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityViewProperties.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityViewProperties.vue" afterDir="false" />
-    </list>
+    <list default="true" id="0f971a95-5374-4ef4-9f7b-8b0626626528" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,104 +12,7 @@
     <favorites_list name="ruigou_web_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruigou_shopping/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/commodityType.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3519">
-              <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#el-card#0;n#el-col#0;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-card#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-table#0;n#div#1;n#el-card#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-button#0;n#el-col#0;n#div#1;n#el-card#0;n#el-col#1;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/node_modules/element-ui/packages/row/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Brand.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4347">
-              <caret line="189" column="49" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/nav1/Table.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="120" column="27" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruigou_web_plat/src/views/commodity/Commodity.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9959">
-              <caret line="436" column="28" selection-start-line="436" selection-start-column="28" selection-end-line="436" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#0;n#el-col#1;n#el-row#0;n#div#0;n#el-card#0;n#el-dialog#1;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-card#0;n#el-dialog#2;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#el-card#0;n#el-dialog#2;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#0;n#template#0;n#el-table-column#0;n#template#0;n#el-table#0;n#el-dialog#2;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#1;n#template#0;n#el-table-column#0;n#template#0;n#el-table#0;n#el-dialog#2;n#section#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -212,17 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ruigou_web_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruigou_shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -230,7 +114,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548566991500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548568142711" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/临时projects/EsTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -306,7 +190,7 @@
       <workItem from="1548378004789" duration="4384000" />
       <workItem from="1548424550702" duration="1338000" />
       <workItem from="1548487314500" duration="34407000" />
-      <workItem from="1548561967127" duration="735000" />
+      <workItem from="1548561967127" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置——lr">
       <created>1547273190388</created>
@@ -371,16 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1548410802568</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="属性配置——lr">
+      <created>1548567641613</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548567641613</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280327000" />
+    <option name="totallyTimeSpent" value="281475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.14285715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.12793177" />
       <window_info id="JRebel" order="2" sideWeight="0.50082916" side_tool="true" weight="0.12793177" />
       <window_info id="Image Layers" order="3" />
@@ -396,7 +287,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1679644" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1679644" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49946696" weight="0.32814237" />
@@ -426,7 +317,8 @@
     <MESSAGE value="显示属性配置——lr" />
     <MESSAGE value="sku属性配置——lr" />
     <MESSAGE value="修改Brand——lr" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改Brand——lr" />
+    <MESSAGE value="属性配置——lr" />
+    <option name="LAST_COMMIT_MESSAGE" value="属性配置——lr" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

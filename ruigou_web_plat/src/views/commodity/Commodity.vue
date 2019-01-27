@@ -42,9 +42,9 @@
 			</el-table-column>
 			<el-table-column prop="state" label="状态" width="100" :formatter="formatState" sortable>
 			</el-table-column>
-			<el-table-column prop="onSaleTime" label="上架时间" width="160" sortable>
+			<el-table-column prop="onSaleTime" label="上架时间" :formatter="formatonSaletime"  width="160" sortable>
 			</el-table-column>
-			<el-table-column prop="offSaleTime" label="下架时间"  min-width="180" sortable>
+			<el-table-column prop="offSaleTime" label="下架时间" :formatter="formatoffSaletime"  min-width="180" sortable>
 			</el-table-column>
 			<el-table-column label="操作" width="180">
 				<template scope="scope">
@@ -312,7 +312,7 @@
                 this.skuPropertiesVisible =true;
                 //1 获取当前行commodityId
                 let commodityId = this.curentRow.id;
-                //2 发送请求获取显示属性数据
+                //2 发送请求获取sku属性数据
                 this.$http.get("/commodity/specification/commodity/skuProperties/"+commodityId)
                     .then(res=>{
                         this.skuProperties = res.data;
@@ -368,6 +368,42 @@
             formatState: function (row, column) {
                 return row.state == 1 ? '上架' :"下架";
             },
+			formatonSaletime:function (row, column) {
+				var Y = null;
+				var M = null;
+				var D = null;
+				var h = null;
+				var m = null;
+				var s = null;
+				var ms = null;
+				var date = new Date(row.onSaleTime);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+				Y = date.getFullYear() + '-';//此时为四位数字表示 getYear()的话为两位数字表示
+				M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';//当前月份(0-11,0代表1月)
+				D = date.getDate() + ' ';//当前日(1-31)
+				h = date.getHours() + ':';
+				m = (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) +':';
+				s = date.getSeconds() +':';
+				ms = date.getMilliseconds();//毫秒值
+				return Y + M + D;//此处可以自定义需要的显示类型
+			},
+			formatoffSaletime:function (row, column) {
+				var Y = null;
+				var M = null;
+				var D = null;
+				var h = null;
+				var m = null;
+				var s = null;
+				var ms = null;
+				var date = new Date(row.offSaleTime);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+				Y = date.getFullYear() + '-';//此时为四位数字表示 getYear()的话为两位数字表示
+				M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';//当前月份(0-11,0代表1月)
+				D = date.getDate() + ' ';//当前日(1-31)
+				h = date.getHours() + ':';
+				m = (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ':';
+				s = date.getSeconds() + ':';
+				ms = date.getMilliseconds();//毫秒值
+				return Y + M + D;//此处可以自定义需要的显示类型
+			},
             handleSuccess(response, file, fileList){
                 //上传成功回调
 				this.form.medias = this.form.medias+file.response.resultObj+",";

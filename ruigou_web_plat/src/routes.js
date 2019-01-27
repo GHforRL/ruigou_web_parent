@@ -1,16 +1,12 @@
 import Login from './views/Login.vue'
 import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
-import Table from './views/nav1/Table.vue'
 import Form from './views/nav1/Form.vue'
 import user from './views/nav1/user.vue'
-import Page4 from './views/nav2/Page4.vue'
-import Page5 from './views/nav2/Page5.vue'
 import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
 import Brand from './views/commodity/Brand.vue'
 import commodityType from './views/commodity/commodityType.vue'
-import commodityViewProperties from './views/commodity/commodityViewProperties.vue'
 import Commodity from "./views/commodity/Commodity.vue";
 
 let routes = [
@@ -46,7 +42,6 @@ let routes = [
         children: [
             { path: '/commodityBrand', component: Brand, name: '商品品牌'},
             { path: '/commodityType', component: commodityType, name: '商品类型' },
-            { path: '/commodityViewProperties', component: commodityViewProperties, name: '属性管理' },
             { path: '/commodity', component: Commodity, name: '商品管理' }
         ]
     },

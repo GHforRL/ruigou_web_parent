@@ -23,8 +23,8 @@
       return {
         logining: false,
         ruleForm2: {
-          account: 'admin',
-          checkPass: '0'
+          account: '',
+          checkPass: ''
         },
         rules2: {
           account: [
@@ -50,21 +50,21 @@
             //_this.$router.replace('/table');
             this.logining = true;
             //NProgress.start();
-            var loginParams = { name: this.ruleForm2.account, password: this.ruleForm2.checkPass };
+            var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
             // https://www.easy-mock.com/mock/5c397bd50f501e020225d588/ruigou/services/plat/login
             this.$http.post("/plat/login",loginParams)
               .then(data=>{
                 this.logining = false;
                 console.log(data)
-                let { success, message,retsultObj } = data.data;
+                let { success, message,resultObj} = data.data;
+                console.log(message)
                 if (!success) {
                   this.$message({
                     message: message,
                     type: 'error'
                   });
                 } else {
-                  retsultObj= {"name":"zs","age":18}
-                  sessionStorage.setItem('user', JSON.stringify(retsultObj));
+                  sessionStorage.setItem('user', JSON.stringify(resultObj));
                   this.$router.push({ path: '/main' });
                 }
               });

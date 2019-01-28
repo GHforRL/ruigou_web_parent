@@ -1,8 +1,7 @@
 import Login from './views/Login.vue'
 import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
-import Form from './views/nav1/Form.vue'
-import user from './views/nav1/user.vue'
+import user from './views/plat/user.vue'
 import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
 import Brand from './views/commodity/Brand.vue'
@@ -51,8 +50,7 @@ let routes = [
         name: '系统管理',
         iconCls: 'fa fa-th-large',
         children: [
-            { path: '/page4', component: Form, name: '员工管理' },
-            { path: '/user', component: user, name: '部门管理' }
+            { path: '/user', component: user, name: '用户管理' },
         ]
     },
     {

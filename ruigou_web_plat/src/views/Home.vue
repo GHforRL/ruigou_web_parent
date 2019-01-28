@@ -11,7 +11,7 @@
 			</el-col>
 			<el-col :span="4" class="userinfo">
 				<el-dropdown trigger="hover">
-					<span class="el-dropdown-link userinfo-inner"><img :src="this.sysUserAvatar" /> {{sysUserName}}</span>
+					<span class="el-dropdown-link userinfo-inner"><img :src="'http://120.76.57.57:8888'+this.sysUserAvatar" /> {{sysNickName}}</span>
 					<el-dropdown-menu slot="dropdown">
 						<el-dropdown-item>我的消息</el-dropdown-item>
 						<el-dropdown-item>设置</el-dropdown-item>
@@ -78,6 +78,7 @@
 				sysName:'瑞购商城后台管理',
 				collapsed:false,
 				sysUserName: '',
+				sysNickName: '',
 				sysUserAvatar: '',
 				form: {
 					name: '',
@@ -129,7 +130,8 @@
 			var user = sessionStorage.getItem('user');
 			if (user) {
 				user = JSON.parse(user);
-				this.sysUserName = user.name || '';
+				this.sysUserName = user.username || '';
+				this.sysNickName = user.nickname || '';
 				this.sysUserAvatar = user.avatar || '';
 			}
 
